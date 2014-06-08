@@ -7,8 +7,10 @@ import urllib2
 import sys
 
 #SMS settings
-to = "07908968495"
-hash = "98641d0b539da3893e78a5f34c5c2a77"
+#Replace the xxxxxxx with the number you wish to text.
+to = "xxxxxxx"
+#Replace the xxxxxx with the hash given to you by smspi.co.uk
+hash = "xxxxx"
 
 
 def sms(to,message,hash):
